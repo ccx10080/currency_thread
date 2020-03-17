@@ -7,6 +7,7 @@ public class SynchronizedClassClass5 implements Runnable {
     @Override
     public void run() {
         System.out.println("run");
+        System.out.println("test1");
         method();
     }
 
