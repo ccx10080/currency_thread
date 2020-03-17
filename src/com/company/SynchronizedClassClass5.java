@@ -8,6 +8,8 @@ public class SynchronizedClassClass5 implements Runnable {
     public void run() {
         System.out.println("run");
         System.out.println("test1");
+        System.out.println("test3");
+        System.out.println("test2");
         method();
     }
 
