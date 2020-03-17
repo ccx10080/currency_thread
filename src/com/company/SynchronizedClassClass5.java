@@ -6,6 +6,7 @@ public class SynchronizedClassClass5 implements Runnable {
     static SynchronizedClassClass5 instance2 = new SynchronizedClassClass5();
     @Override
     public void run() {
+        System.out.println("run");
         method();
     }
 
